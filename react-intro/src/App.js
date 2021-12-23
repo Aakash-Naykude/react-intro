@@ -4,9 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Windows Operating system</h1>
+      <h1 style={{color:"green", fontSize:"50px"}}>Windows Operating system</h1>
       <Newapp />
-      <h1>Mobile Manufacturer</h1>
+      <h1 style={{color:"blue", fontSize:"50px"}}>Mobile Manufacturer</h1>
       <Newapp2 />
     </div>
   );
