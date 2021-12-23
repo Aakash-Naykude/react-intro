@@ -1,0 +1,6 @@
+.App > ul:nth-child(4) > li:nth-child(2){
+    list-style-type: square;
+}
+.App > ul:nth-child(4) > li:nth-child(4){
+    list-style-type: circle;
+}
