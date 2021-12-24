@@ -39,24 +39,24 @@ function App() {
 //     </div>
 //   );
 // }
-function Newapp() {
-  const arr = ["iphone", "blackberrry", "windows", "iphone"];
-  return (
-    <ul>
-      {arr.map((e) => (
-        <li>{e}</li>
-      ))}
-    </ul>
-  );
-}
-function Newapp2() {
-  const arr = ["Samsung", "HTC", "Micromax", "Apple"];
-  return (
-    <ul>
-      {arr.map((e) => (
-        <li>{e}</li>
-      ))}
-    </ul>
-  );
-}
+// function Newapp() {
+//   const arr = ["iphone", "blackberrry", "windows", "iphone"];
+//   return (
+//     <ul>
+//       {arr.map((e) => (
+//         <li>{e}</li>
+//       ))}
+//     </ul>
+//   );
+// }
+// function Newapp2() {
+//   const arr = ["Samsung", "HTC", "Micromax", "Apple"];
+//   return (
+//     <ul>
+//       {arr.map((e) => (
+//         <li>{e}</li>
+//       ))}
+//     </ul>
+//   );
+// }
 export default App;
