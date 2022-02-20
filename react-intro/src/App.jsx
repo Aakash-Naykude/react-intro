@@ -18,11 +18,11 @@ function App() {
         <div>
           <button onClick={() => changeVal(1)}>Add one value</button>
           <button onClick={() => changeVal(-1)}>Reduce one value</button>
-          <br/>
-          <button onClick={()=> changeVal(count)}>Double value</button>
+          <br />
+          <button onClick={() => changeVal(count)}>Double value</button>
         </div>
       )}
-      <h4>Counter is {count %2 === 0 ? "EVEN":"ODD"}</h4>
+      <h4>Counter is {count % 2 === 0 ? "EVEN" : "ODD"}</h4>
       <h1 style={{ color: "red", fontFamily: "inherit" }}>lets go</h1>
     </div>
   );
